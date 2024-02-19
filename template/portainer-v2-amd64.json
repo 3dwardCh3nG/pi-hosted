@@ -4040,7 +4040,7 @@
 				"Books"
 			],
 			"description": "Kavita is a fast, feature rich, cross platform reading server.",
-			"image": "jvmilazz0/kavita:latest",
+			"image": "kizaing/kavita:latest",
 			"logo": "https://raw.githubusercontent.com/Kareadita/Kavita/develop/Logo/kavita.svg",
 			"name": "Kavita",
 			"platform": "linux",
