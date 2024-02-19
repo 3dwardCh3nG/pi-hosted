@@ -62,7 +62,7 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"description": "Specify a timezone to use for example America/New_York"
 				},
 				{
@@ -108,7 +108,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -174,7 +174,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -457,7 +457,7 @@
 			"description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -555,7 +555,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -637,7 +637,7 @@
 			"description": "BIND 9 provides software for Domain Name System (DNS) management including both defining domain names authoritatively for a given DNS zone, and recursively resolving domain names to their IP addresses. In addition to BIND 9's DNS server itself, named, this container also includes tools for performing DNS queries and dynamic updates. Read more on the BIND 9 https://www.isc.org/bind/ ",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -686,7 +686,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -774,7 +774,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1090,7 +1090,7 @@
 					"name": "GUID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1477,7 +1477,7 @@
 					"name": "POSTGRES_PASSWORD"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1756,7 +1756,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -1866,7 +1866,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -1931,7 +1931,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2045,7 +2045,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2236,7 +2236,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "Time Zone",
 					"name": "TZ"
 				}
@@ -2354,7 +2354,7 @@
 					"name": "CAPTCHA_SOLVER"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2731,7 +2731,7 @@
 					"name": "USER_GID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2793,7 +2793,7 @@
 			"description": "A simple server for sending and receiving messages",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2898,7 +2898,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "Timezone",
 					"name": "TZ"
 				}
@@ -3182,7 +3182,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3231,7 +3231,7 @@
 					"name": "HOMEBRIDGE_CONFIG_UI_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3789,7 +3789,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3881,7 +3881,7 @@
 					"name": "LOG_LEVEL"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -4614,7 +4614,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -4760,7 +4760,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5097,7 +5097,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5197,7 +5197,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -5384,7 +5384,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -5529,7 +5529,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5652,7 +5652,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5727,7 +5727,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5777,7 +5777,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -5842,7 +5842,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -5889,7 +5889,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -5947,7 +5947,7 @@
 					"name": "NODE_RED_CREDENTIAL_SECRET"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -6409,7 +6409,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -6453,7 +6453,7 @@
 					"description": "for GroupID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ",
 					"description": "Specify a timezone to use for example America/New_York"
@@ -6645,7 +6645,7 @@
 					"name": "PGADMIN_DEFAULT_PASSWORD"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -7146,7 +7146,7 @@
 					"name": "POSTGRES_PASSWORD"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -7338,7 +7338,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "Time Zone",
 					"name": "TZ"
 				}
@@ -7379,7 +7379,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "Time Zone",
 					"name": "TZ"
 				},
@@ -7510,7 +7510,7 @@
 					"name": "UMASK"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -7697,7 +7697,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -7792,7 +7792,7 @@
 					"name": "SERVER_PORT"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -7823,7 +7823,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "Time Zone",
 					"name": "TZ"
 				}
@@ -7873,7 +7873,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -8024,7 +8024,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -8789,7 +8789,7 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"description": "Specify a timezone to use for example Europe/London"
 				}
 			],
@@ -9470,7 +9470,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -9603,7 +9603,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -9861,7 +9861,7 @@
 					"description": "If you have changed the default API port don't forget to change it here too."
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -9907,7 +9907,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Australia/Sydney",
 					"label": "TZ",
 					"name": "TZ"
 				},
