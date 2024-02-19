@@ -5831,7 +5831,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/nginx-proxy-manager-v2-mysql.yml",
-				"url": "https://github.com/3dwardCh3nG/pi-hosted/blob/master"
+				"url": "https://github.com/3dwardCh3nG/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager v2 with Mysql",
@@ -7550,7 +7550,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/raspberrypi-monitoring.yml",
-				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+				"url": "https://github.com/3dwardCh3nG/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Raspberry Pi Docker Monitor",
