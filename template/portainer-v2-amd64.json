@@ -7669,7 +7669,7 @@
 			"name": "raspberry-pi-docker-monitor",
 			"platform": "linux",
 			"ports": [
-				"3000:3000/tcp"
+				"3030:3030/tcp"
 			],
 			"repository": {
 				"stackfile": "stack/raspberrypi-monitoring.yml",
