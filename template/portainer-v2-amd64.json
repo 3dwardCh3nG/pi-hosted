@@ -7666,14 +7666,14 @@
 				}
 			],
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/rpi_monitor.png",
-			"name": "raspberry-pi-docker-monitor",
+			"name": "RaspberryPi-Docker-Monitor",
 			"platform": "linux",
 			"ports": [
-				"3030:3030/tcp"
+				"3000:3000/tcp"
 			],
 			"repository": {
 				"stackfile": "stack/raspberrypi-monitoring.yml",
-				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Raspberry Pi Docker Monitor",
