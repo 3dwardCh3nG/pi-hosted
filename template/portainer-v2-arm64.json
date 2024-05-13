@@ -9944,6 +9944,32 @@
 				}
 			],
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://wiki.znc.in/ZNC\" target=\"_blank\">https://wiki.znc.in/ZNC</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-znc\" target=\"_blank\">https://docs.linuxserver.io/images/docker-znc</a><br><br><br>"
+		},
+		{
+			"categories": [
+				"LLM"
+			],
+			"description": "Ollama Server and Web UI",
+			"env": [
+				{
+					"default": "8888",
+					"label": "OLLAMA_WEBUI_PORT",
+					"name": "OLLAMA_WEBUI_PORT"
+				}
+			],
+			"logo": "\nhttps://ollama.com/public/ollama.png",
+			"name": "ollama",
+			"officialDoc": "https://github.com/ollama/ollama/tree/main/docs",
+			"platform": "linux",
+			"restart_policy": "unless-stopped",
+			"title": "Ollama",
+			"type": 3,
+			"repository": {
+				"stackfile": "stack/ollama.yml",
+				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+			},
+			"webpage": "https://ollama.com/",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b>"
 		}
 	]
 }
