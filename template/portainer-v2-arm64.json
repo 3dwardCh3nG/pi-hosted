@@ -7362,7 +7362,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "qBittorrent",
-			"type": 1,
+			"type": 3,
 			"repository": {
 				"stackfile": "stack/qbittorrent.yml",
 				"url": "https://github.com/3dwardCh3nG/pi-hosted"
