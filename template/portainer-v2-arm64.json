@@ -9997,11 +9997,6 @@
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/calibre-web-icon.png",
 			"name": "calibre",
 			"platform": "linux",
-			"ports": [
-				"8084:8080/tcp",
-				"8085:8081/tcp",
-				"8083:8083/tcp"
-			],
 			"restart_policy": "unless-stopped",
 			"title": "Calibre",
 			"type": 3,
@@ -10010,6 +10005,24 @@
 				"url": "https://github.com/3dwardCh3nG/pi-hosted"
 			},
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://calibre-ebook.com/\" target=\"_blank\">https://calibre-ebook.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-calibre\" target=\"_blank\">https://docs.linuxserver.io/images/docker-calibre</a><br><a href=\"https://docs.linuxserver.io/images/docker-calibre-web\" target=\"_blank\">https://docs.linuxserver.io/images/docker-calibre-web</a><br><br><br><br>"
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/snibox.png",
+			"name": "Snippet-box",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pawelmalak/snippet-box\" target=\"_blank\">https://github.com/pawelmalak/snippet-box</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pawelmalak/snippet-box#with-docker\" target=\"_blank\">https://github.com/pawelmalak/snippet-box#with-docker</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=v-jUyB3fvAo target=\"_blank\">Novaspirit Tech - My Most used container! Snippet Box</a><br><br>Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
+			"platform": "linux",
+			"restart_policy": "unless-stopped",
+			"title": "Snippet-box",
+			"type": 3,
+			"repository": {
+				"stackfile": "stack/snippet-box.yml",
+				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+			}
 		}
 	]
 }

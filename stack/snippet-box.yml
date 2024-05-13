@@ -1,0 +1,10 @@
+version: '3'
+services:
+  snippet-box:
+    image: pawelmalak/snippet-box:arm
+    container_name: snippet-box
+    volumes:
+      - /portainer/Files/AppData/Config/snippet-box:/app/data
+    ports:
+      - 5555:5000
+    restart: unless-stopped
