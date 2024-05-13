@@ -13,9 +13,19 @@
 			"default": "1000",
 			"label": "PGID",
 			"name": "PGID"
+		},
+		{
+			"default": "Australia/Sydney",
+			"label": "TZ",
+			"name": "TZ"
+		},
+		{
+			"default": "8088",
+			"label": "WEBUI_PORT",
+			"name": "WEBUI_PORT"
 		}
 	],
-	"image_arm64": "linuxserver/qbittorrent:latest",
+	"image_arm64": "lscr.io/linuxserver/qbittorrent:latest",
 	"image_amd64": "linuxserver/qbittorrent:latest",
 	"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/qbittorrent-icon.png",
 	"name": "qbittorrent",
@@ -24,7 +34,7 @@
 	"ports": [
 		"6881:6881/tcp",
 		"6881:6881/udp",
-		"8080:8080/tcp"
+		"8088:8088/tcp"
 	],
 	"restart_policy": "unless-stopped",
 	"title": "qBittorrent",
