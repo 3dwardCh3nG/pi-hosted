@@ -7,7 +7,7 @@ services:
       - PUID=${PUID}
       - PGID=${PGID}
       - TZ=${TZ}
-      - WEBUI_PORT={WEBUI_PORT}
+      - WEBUI_PORT=${WEBUI_PORT}
     volumes:
       - /portainer/Files/AppData/Config/qBittorrent:/config
       - /portainer/Downloads:/downloads
