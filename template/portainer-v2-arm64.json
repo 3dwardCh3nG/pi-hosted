@@ -7351,8 +7351,7 @@
 					"name": "WEBUI_PORT"
 				}
 			],
-			"image": "lscr.io/linuxserver/qbittorrent:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/qbittorrent-icon.png",
+			"logo": "https://raw.githubusercontent.com/3dwardCh3nG/pi-hosted/master/images/qbittorrent-icon.png",
 			"name": "qbittorrent",
 			"officialDoc": "https://docs.linuxserver.io/images/docker-qbittorrent",
 			"platform": "linux",
@@ -7364,16 +7363,10 @@
 			"restart_policy": "unless-stopped",
 			"title": "qBittorrent",
 			"type": 1,
-			"volumes": [
-				{
-					"bind": "/portainer/Files/AppData/Config/qBittorrent",
-					"container": "/config"
-				},
-				{
-					"bind": "/portainer/Downloads",
-					"container": "/downloads"
-				}
-			],
+			"repository": {
+				"stackfile": "stack/qbittorrent.yml",
+				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+			},
 			"webpage": "https://www.qbittorrent.org/",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.qbittorrent.org/\" target=\"_blank\">https://www.qbittorrent.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-qbittorrent\" target=\"_blank\">https://docs.linuxserver.io/images/docker-qbittorrent</a><br><br><br>"
 		},
