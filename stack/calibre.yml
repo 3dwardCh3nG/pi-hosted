@@ -1,0 +1,28 @@
+version: '3'
+services:
+  calibre:
+    image: linuxserver/calibre:latest
+    container_name: calibre
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /portainer/Books:/books
+      - /portainer/Files/AppData/Config/Calibre:/config
+    ports:
+      - 8084:8080
+      - 8085:8081
+    restart: unless-stopped
+  calibre-web:
+    image: linuxserver/calibre-web:latest
+    container_name: calibre-web
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /portainer/Books:/books
+      - /portainer/Files/AppData/Config/Calibre-web:/config
+    ports:
+      - 8086:8083
