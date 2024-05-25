@@ -10023,6 +10023,43 @@
 				"stackfile": "stack/snippet-box.yml",
 				"url": "https://github.com/3dwardCh3nG/pi-hosted"
 			}
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"description": "It is a self-hosted monitoring tool like 'Uptime Robot'.",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/uptime-kuma.png",
+			"name": "uptime-kuma",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/louislam/uptime-kuma\" target=\"_blank\">https://github.com/louislam/uptime-kuma</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-docker\" target=\"_blank\">https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-docker</a><br><br><br>A fancy self-hosted monitoring tool.",
+			"platform": "linux",
+			"restart_policy": "unless-stopped",
+			"title": "Uptime Kuma",
+			"type": 3,
+			"repository": {
+				"stackfile": "stack/uptime-kuma.yml",
+				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+			}
+		},
+		{
+			"categories": [
+				"Other",
+				"Monitor",
+				"Network"
+			],
+			"description": "A webapp that scans your network and allows you to track hosts, give email & discord updates and now also curfew notifications to check if your kids are online at night!",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/snibox.png",
+			"name": "WhoIsHomeUI (DO NOT USE)",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/3dwardCh3nG/WhoIsHomeUI\", target=\"_blank\">https://github.com/3dwardCh3nG/WhoIsHomeUI</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/repository/docker/edeedeeed/who_is_home_ui/\" target=\"_blank\">https://hub.docker.com/repository/docker/edeedeeed/who_is_home_ui/</a>",
+			"platform": "linux",
+			"restart_policy": "unless-stopped",
+			"title": "WhoIsHomeUI (DO NOT USE)",
+			"type": 3,
+			"repository": {
+				"stackfile": "stack/snippet-box.yml",
+				"url": "https://github.com/3dwardCh3nG/pi-hosted"
+			}
 		}
 	]
 }
